@@ -75,7 +75,7 @@ def get_multi_work(start,end):
 
 def save_multi_work(start,end):
     df = pd.DataFrame(data=get_multi_work(start,end))
-    df.to_csv('Hebrew.csv',mode='a')
+    df.to_csv('Data.csv',mode='a')
     
 save_multi_work(0,1000)
 
